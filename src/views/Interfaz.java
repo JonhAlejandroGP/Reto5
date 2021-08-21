@@ -20,7 +20,7 @@ public class Interfaz extends JFrame {
        
         setLayout(new BorderLayout());      
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setTitle("Reto 5");
+        setTitle("Reto 5 MISION TIC Jonh Garzon");
         i = new panelBotones(this);
         panelLista = new PanelLista(this);    
         add(i,BorderLayout.SOUTH);
