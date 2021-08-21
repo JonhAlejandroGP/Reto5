@@ -20,8 +20,7 @@ public class Conexion {
  
  
         try { 
-            connect = DriverManager.getConnection(url, "root", ""); 
-            System.out.println("ok"); 
+            connect = DriverManager.getConnection(url, "root", "");             
         } catch (Exception e) { 
             System.out.println(e.getMessage()); 
         } 

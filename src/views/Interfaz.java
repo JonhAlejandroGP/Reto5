@@ -1,12 +1,10 @@
 package views;
 
 import javax.swing.JFrame;
-import javax.swing.JScrollPane;
-
 import controller.Controller;
 import java.util.ArrayList;
 import java.awt.BorderLayout;
-import java.awt.Dimension;
+
 
 public class Interfaz extends JFrame {
     

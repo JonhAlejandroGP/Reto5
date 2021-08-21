@@ -21,7 +21,7 @@ public class panelBotones extends JPanel implements ActionListener {
         super();
         interfaz =inter;
         setLayout(new GridLayout(1,4));
-        setBorder(new TitledBorder("Opciones"));
+        setBorder(new TitledBorder("Requerimientos"));
         btnreq1=new JButton(BTN_REQ1); 
         btnreq2=new JButton(BTN_REQ2);
         btnreq3=new JButton(BTN_REQ3);
